@@ -20,22 +20,23 @@ U7 - MIC5205 (3.3V)
   
 Name                 | Pin                   | Function  
 -------------------- | --------------------- | ---------------------  
-RXD                  | D0                    |  
-TXD                  | D1                    |  
-Jumper 1             | D2                    |  0   - 600 Lux  
-Jumper 2             | D3                    |  0   - 3000 Lux  
-Jumper 3             | D4                    |  600 - 10000 Lux  
-Jumper 4             | D5                    |  0   - 100% rH  
-Jumper 5             | D6                    |  300 - 1100 hPa  
-Jumper 6             | D7                    | -25  - 55 °C  
-Jumper 7             | D8                    |  0   - 50 °C  
+RXD                  | D0                    | Serial RX  
+TXD                  | D1                    | Serial TX  
+Jumper 1             | D2                    | 0 - 600 Lux  
+Jumper 2             | D3                    | 0 - 3000 Lux  
+Jumper 3             | D4                    | 600 - 10000 Lux  
+Jumper 4             | D5                    | 0 - 100% rH  
+Jumper 5             | D6                    | 300 - 1100 hPa  
+Jumper 6             | D7                    | -25 - 55 °C  
+Jumper 7             | D8                    | 0 - 50 °C  
 LED 1                | D9                    |  
 MCP4922 #CS          | D10                   |  
-MCP4922 SDI          | D11                   |  
-MCP4922 SCK          | D13                   |  
+MCP4922 SDI          | D11                   | ISP MOSI  
+-                    | D12                   | ISP MISO  
+MCP4922 SCK          | D13                   | ISP SCK  
 Pin A0               | A0                    |  
 Pin A1               | A1                    |  
 Pin A2               | A2                    |  
 Pin A3               | A3                    |  
-HB1750 / BME280 SDA  | A4                    |  
-HB1750 / BME280 SCL  | A5                    |  
+HB1750 / BME280 SDA  | A4                    | I2C  
+HB1750 / BME280 SCL  | A5                    | I2C  

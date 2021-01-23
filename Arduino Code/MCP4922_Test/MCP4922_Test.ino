@@ -14,11 +14,11 @@
 #define DAC_B_OFF 0b10100000
 
 // Calibration data obtained by running the calibration code
-const int DAC_A_0V  = 0;
-const int DAC_A_10V = 3900;
+const int DAC_A_0V  = 0;    //  0,682V
+const int DAC_A_10V = 3900; // 10,68V
 
-const int DAC_B_0V  = 0;
-const int DAC_B_10V = 3910;
+const int DAC_B_0V  = 0;    //  0,685V
+const int DAC_B_10V = 3910; // 10,69V
 
 // Data min and max range
 const int data_min_range = 0;
