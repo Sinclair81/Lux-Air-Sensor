@@ -32,7 +32,7 @@ Jumper 7             | D8                    | 0 - 50 °C
 LED 1                | D9                    |  
 MCP4922 #CS          | D10                   |  
 MCP4922 SDI          | D11                   | ISP MOSI  
--                    | D12                   | ISP MISO  
+---                  | D12                   | ISP MISO  
 MCP4922 SCK          | D13                   | ISP SCK  
 Pin A0               | A0                    |  
 Pin A1               | A1                    |  
